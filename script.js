@@ -21,10 +21,11 @@ async function callGemini(query) {
 //Handling the Slide Bar
 let slide_info = true;
 let slider_btn = document.querySelector(".slider-btn");
+let slider_btn_icon = document.querySelector(".slider-btn-icon");
 slider_btn.addEventListener("click", () => {
-  console.log(slide_info);
   const slider = document.querySelector(".slider");
   slider.classList.toggle("slide");
+  slider_btn_icon.classList.toggle("rotateIcon");
 });
 
 //Handling Form for Input

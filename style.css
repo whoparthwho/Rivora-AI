@@ -80,6 +80,15 @@ body {
   transition: border 400ms ease-out;
   box-sizing: border-box;
 }
+.slider-btn-icon{
+  transition: transform 1s ease-in-out;
+  transform: rotateY(0deg);
+}
+
+.rotateIcon{
+  transform: rotateY(180deg);
+}
+
 .slider-btn:hover{
   border: 1px solid white;
 
