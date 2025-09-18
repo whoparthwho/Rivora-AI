@@ -81,7 +81,7 @@ body {
   box-sizing: border-box;
 }
 .slider-btn-icon{
-  transition: transform 1s ease-in-out;
+  transition: transform 600ms ease-in-out;
   transform: rotateY(0deg);
 }
 
